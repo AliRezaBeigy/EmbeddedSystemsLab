@@ -1,6 +1,6 @@
 *.o
 *.obj
-*.hex
 *.elf
+*.docx
 *.pdsbak
 *.workspace
