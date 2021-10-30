@@ -73,7 +73,7 @@ int main()
     TCNT1 = 3035; // Tick 0.5 milisec | 2^16 - 62500
     TCCR1B |= (1 << CS11); // Clk/8 Prescaler
     TCCR0 |= (1 << CS01);  // Clk/8 Prescaler
-    TIMSK |= (1 << TOIE1) | (1 << TOIE0); // Enable Timer1 And Timer2
+    TIMSK |= (1 << TOIE1) | (1 << TOIE0); // Enable Timer1 And Timer0
 
     sei();
 
